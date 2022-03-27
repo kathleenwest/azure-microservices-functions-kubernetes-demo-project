@@ -54,7 +54,7 @@ func kubernetes install --namespace keda
 
 ### Deploy Options
 
-See instructions how to make your own deploy.yml file in the main repo README
+These are instructions how to make your own deploy.yml file and apply to your Kubernetes service
 
 func kubernetes deploy --name azure-functions-cluster --image-name appregistrykwest.azurecr.io/neighborly-api --dry-run > deploy.yml
 
