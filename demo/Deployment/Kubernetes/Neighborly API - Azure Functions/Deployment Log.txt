@@ -1,0 +1,52 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\kathl\Dropbox\Career\Learning\Classes\Udacity\Azure\Azure Microservices\Project\neighborly\NeighborlyAPI> func kubernetes deploy --name azure-functions-cluster --image-name appregistrykwest.azurecr.io/neighborly-api -polling-interval 3 -cooldown-period 5
+secret/azure-functions-cluster unchanged
+secret/func-keys-kube-secret-azure-functions-cluster configured
+serviceaccount/azure-functions-cluster-function-keys-identity-svc-act unchanged
+role.rbac.authorization.k8s.io/functions-keys-manager-role unchanged
+rolebinding.rbac.authorization.k8s.io/azure-functions-cluster-function-keys-identity-svc-act-functions-keys-manager-rolebinding unchanged
+service/azure-functions-cluster-http unchanged
+deployment.apps/azure-functions-cluster-http created
+deployment.apps/azure-functions-cluster created
+scaledobject.keda.sh/azure-functions-cluster unchanged
+Waiting for deployment "azure-functions-cluster-http" rollout to finish: 0 of 1 updated replicas are available...
+deployment "azure-functions-cluster-http" successfully rolled out
+        createAdvertisement - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/createadvertisement
+
+        createNote - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/createnote?code=vYiSQhT4IaQz4kfC1fElCSyNXlJgoRIbdeai0mmXgrBuLu2VLm0Iwg==
+
+        deleteAdvertisement - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/deleteadvertisement
+
+        functionHttpTriggerSendGrid - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/functionhttptriggersendgrid?code=AZkkOkakniATVeUFIzxuN59/sEStGQFMu6d4IXum/AEzptB0YRmctA==
+
+        getAdvertisement - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getadvertisement
+
+        getAdvertisements - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getadvertisements
+
+        getNote - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getnote?code=SaPNYGVs/NlRw1KTwSTW4CHenOWfMawoBesRxc1Le8ks6BOhdzKtEg==
+
+        getNotes - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getnotes?code=w7MdjRHG6WJmVUmTyZe3rlzmSPL3ViFM71qj2UgupEAmifaXJEg2XQ==
+
+        getPost - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getpost
+
+        getPosts - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/getposts
+
+        updateAdvertisement - [httpTrigger]
+        Invoke url: http://20.42.39.170/api/updateadvertisement
+
+        Master key: EnVy8h8e5tWnNyXmPLMzo9T3elJWTJyjYRn6xp946U7gN9s1UujQaA==
+PS C>            

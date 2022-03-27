@@ -1,0 +1,12 @@
+[{
+"id": "831e1650-001e-001b-66ab-eeb76e069631",
+"eventType": "Microsoft.EventGrid/topics",
+"subject": "myUdacityEventSubscription",
+"eventTime": "2020-07-15T21:08:20+00:00",
+"data": {
+ "name": "Kathleen West"
+},
+"dataVersion": "1.0",
+"metadataVersion": "1",
+"topic": "/subscriptions/80d5baff-7d1b-4368-8467-a80107caa5bb/resourceGroups/udacitypractice/providers/Microsoft.EventGrid/topics/myUdacityEventGridTopicLab"
+}]
