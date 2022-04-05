@@ -31,8 +31,7 @@ This project has the following parts:
 
 [Udacity Project Step-By-Step Instructions](DeployingtheNeighborlyAppwithAzureFunctions.md)
 
-[Starter Code Repository](https://github.com/udacity/nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starterd)
-
+[Starter Code Repository](https://github.com/udacity/nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starter)
 ## Grading Rubric
 
 ![Grading Rubric](images/rubric.jpg)
