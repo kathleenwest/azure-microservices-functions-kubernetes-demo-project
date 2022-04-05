@@ -1,5 +1,9 @@
 # Neighborly App with Azure Functions
 
+Description here
+
+## Summary
+
 This project has the following parts:
 
 - Creating an Azure Function App
@@ -15,6 +19,11 @@ This project has the following parts:
 - Event Hubs and Logic App
 ![Event Hubs and Logic App](images/part4.jpg)
 
+## Demo Videos
+
+- This is a short demo of how to create and utilize a deployment yaml file for an Azure function app to an existing Kubernetes service. Also, we show another option of deploying directly to Kubernetes from a Docker container residing on the Azure Container Registry. Lastly, we tour through our deployment running on a Kubernetes service with the Azure portal.
+
+[![Watch the demo video](/images/HowtoDeployAzureFunctionApptoKubernetesServiceDemoTitle.jpg)](https://www.youtube.com/watch?v=2cij2zvIdXY "Video Demo - How to Deploy Azure Function App to Kubernetes Service Demo")
 
 ## Udacity 
 
@@ -27,7 +36,3 @@ This project has the following parts:
 ## Grading Rubric
 
 ![Grading Rubric](images/rubric.jpg)
-
-
-
-
