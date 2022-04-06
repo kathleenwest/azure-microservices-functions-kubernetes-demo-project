@@ -42,7 +42,7 @@ This project has the following parts:
 
 ## Udacity 
 
-I passed and my project met all specifications that are documented in files and screen captures [here](https://github.com/kathleenwest/azure-microservices-functions-kubernetes-demo-project/tree/main/demo). Also reference the demo videos above for a walk through of how my project was setup in Azure and see this link for how my project [met specifications](images\meetsspecifications.jpg).
+I passed and my project met all specifications that are documented in files and screen captures [here](https://github.com/kathleenwest/azure-microservices-functions-kubernetes-demo-project/tree/main/demo). Also reference the demo videos above for a walk through of how my project was setup in Azure and see this link for how my project [met specifications](images/meetsspecifications.jpg).
 
 ![I passed](images/pass.jpg)
 
